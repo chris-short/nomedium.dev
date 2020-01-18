@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<main>
+    <div class="portrait-container">
+        <img src="{{ "images/nomedium.png" | relURL }}" width="300" height="300" class="portrait" alt="No More Medium. Build Your Own Site, Please." />
+    </div>
+
+    <div class="content">
+        <h1>{{ .Site.Author.name | default "Stip" }}</h1>
+        <h2>{{ .Site.Author.bio | default "Hugo theme to introduce yourself" }}</h2>
+        <p>{{- partial "introduction.html" . -}}</p>
+
+        <div class="links">
+            {{- range .Site.Params.links -}}
+                <a rel="me" href="{{ .url }}" title="{{ .title }}">
+                    <span class="{{ .iconset | default "fab" }} fa-{{ .icon }}"></span>
+                </a>
+            {{- end -}}
+        </div>
+
+        {{- partial "footer.html" . -}}
+    </div>
+</main>
+
+{{ end }}

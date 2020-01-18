@@ -1,0 +1,33 @@
+baseURL = "https://preview.nomedium.dev/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "No More Medium. Build Your Own Site, Please. PREVIEW"
+theme = "stip"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS"]
+
+[Author]
+    name = "No Medium PREVIEW"
+    bio = "Medium is Bad. Stop Using It."
+
+[params]
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/chris-short/nomedium.dev"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/ChrisShort"
+      
+    [[params.links]]
+        icon = "linkedin"
+        title = "LinkedIn"
+        url = "https://www.linkedin.com/in/thechrisshort/"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "newspaper"
+        title = "DevOps'ish"
+        url = "https://devopsish.com/"
