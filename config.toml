@@ -11,6 +11,12 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS"]
 
 [params]
 
+    [params.colors]
+        background = "#000000"
+        circle = "#3942ba"
+        foreground = "#c7d0fc"
+        hover = "#cd6cf7"
+
     [[params.links]]
         icon = "github"
         title = "Github"
