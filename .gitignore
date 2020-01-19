@@ -1,3 +1,2 @@
 public/
-.firebase*
-firebase.json
+.firebase
