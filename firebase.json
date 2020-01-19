@@ -79,6 +79,23 @@
           "value": "max-age=63072000; includeSubDomains; preload"
         }]
       }
+    ],
+    "redirects": [
+      {
+        "source": "/deep-cuts-000/",
+        "destination": "https://deepcuts.io/episode/000/",
+        "type": 301
+      },
+      {
+        "source": "/deep-cuts-001/",
+        "destination": "https://deepcuts.io/episode/001/",
+        "type": 301
+      },
+      {
+        "source": "/categories/podcast/",
+        "destination": "https://deepcuts.io/",
+        "type": 301
+      }
     ]
   }
 }
