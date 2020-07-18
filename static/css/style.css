@@ -1,0 +1,104 @@
+body,
+html {
+    color: #c7d0fc;
+    margin: 0;
+    padding: 1rem
+}
+
+html {
+    font-family: Roboto, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    overflow-y: auto
+}
+
+body {
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+a {
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+    color: #c7d0fc
+}
+
+a:hover {
+    color: #cd6cf7
+}
+
+h1 {
+    font-size: 9rem;
+    font-weight: 100
+}
+
+@media screen and (max-width:980px) {
+    h1 {
+        font-size: 6rem
+    }
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 100
+}
+
+p {
+    font-family: Lora, Times, "Times New Roman", serif;
+    font-weight: 300;
+    line-height: 1.7
+}
+
+img.portrait {
+    border-radius: 50%;
+    border: 20px solid #c7d0fc;
+    width: 300px;
+    height: 300px
+}
+
+.portrait-container {
+    border-radius: 50%;
+    border: 65vw solid #3942ba;
+    margin: -63vw;
+    height: 340px;
+    width: 340px
+}
+
+main {
+    display: flex;
+    flex-direction: row
+}
+
+@media screen and (max-width:980px) {
+    main {
+        flex-direction: column
+    }
+}
+
+.content {
+    margin-left: 1rem;
+    max-width: 50vw
+}
+
+@media screen and (max-width:980px) {
+    .content {
+        margin-left: 0;
+        max-width: 100vw
+    }
+}
+
+.content .links {
+    margin-top: 2.5rem;
+    font-size: 1.5rem
+}
+
+.content .links a {
+    margin-right: .5rem;
+    text-decoration: none
+}
+
+.footer {
+    margin-top: 3rem;
+    font-size: .75rem
+}

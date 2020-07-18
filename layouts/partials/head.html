@@ -9,9 +9,7 @@
     </title>
 
     <!-- CSS -->
-    {{- $inServerMode := .Site.IsServer }} {{- $cssTarget := "css/style.css" }} {{- $cssOptions := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }} {{- $style := resources.Get
-    "scss/stip.scss" | resources.ExecuteAsTemplate "style.hallo.scss" . | toCSS $cssOptions }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="css/style.css">
 
     <style>
         body {
