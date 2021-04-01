@@ -19,7 +19,7 @@ Views expressed on this site do not reflect the opinions or views of:
 * Detroit Go Meetup
 * Detroit Kubernetes Meetup
 
-Nor those of any group [Chris Short](https://chrisshort.net) is or has been affiliated with or employed by.
+Nor those of any group [Chris Short](https://linktr.ee/TheChrisShort) is or has been affiliated with or employed by.
 
 The materials on nomedium.dev website are provided on an 'as is' basis. nomedium.dev makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
 
