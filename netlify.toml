@@ -55,13 +55,9 @@ HUGO_ENABLEGITINFO = "true"
 [[headers]]
   for = "/*"
   [headers.values]
+    Access-Control-Allow-Origin = "https://nomedium.dev"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
-    Permissions-Policy = 'fullscreen=(self "https://devopsish.com"), geolocation=(), camera=(), microphone=()'
-    # Cross-Origin-Embedder-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
-    # Cross-Origin-Opener-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
-    # Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://chrisshort.report-uri.com/r/d/csp/wizard"
-    # Report-To = '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://chrisshort.report-uri.com/a/d/g"}],"include_subdomains":true}'
-    NEL = '{"report_to":"default","max_age":31536000,"include_subdomains":true}'
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
